@@ -12,6 +12,7 @@
 	<artifactId>cicd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cicd</name>
+	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -49,6 +50,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>cicddemo</finalName>
 	</build>
 
 </project>
